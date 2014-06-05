@@ -21,6 +21,11 @@ body {
 padding-top: 70px;
 height: 100%;
 overflow-x:hidden;
+/*background-color: #E6E3BB;*/
+/*background-color: #EFEACC;*/
+/*background-color: #CFC19E;*/
+/*background-color: #D4C9AD;*/
+/*background-color: #F1ECDF;*/
 }
 
 html {
@@ -96,7 +101,8 @@ padding-right: 25px;
 
 #brand {
     font-family: 'Lobster', cursive;
-    color: #063E6D;
+    color: #2B4E72;
+    /*color: #063E6D;*/
     /*color: #024E6E;*/
     /*color: #002E48;*/
 }
