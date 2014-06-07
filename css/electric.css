@@ -255,10 +255,26 @@ img.displayed {
     border-radius: 25px;
 }
 
+.testname {
+    font-family: 'Lato', sans-serif;
+    
+}
 .testtext {
+    font-family: 'Poiret One', cursive;
+    font-size: 18px;
     text-align: center;
 }
-
+/*.testtext2 {
+    font-family: 'Gilda Display', serif;
+    font-size: 18px;
+    text-align: center;
+}*/
+.testbreak {
+    border: none;
+    height: 2px;
+    color: #d3d3d3;
+    background-color: #d3d3d3;
+}
 
 /*End Testimonial page*/
 
