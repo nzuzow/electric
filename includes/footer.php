@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="css/electric.css" type="text/css" media="screen" title="master" charset="utf-8">
-    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen" title="master" charset="utf-8">
+    <link rel="stylesheet" href="../css/electric.css" type="text/css" media="screen" title="master" charset="utf-8">
+    <link rel="stylesheet" href="../css/bootstrap.css" type="text/css" media="screen" title="master" charset="utf-8">
 </head>
 
 <footer id="footer" class="well">
