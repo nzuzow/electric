@@ -17,6 +17,10 @@
     margin-bottom: 10px;
 }
 
+/* -----------------------------------------------
+    Basic general settings
+-------------------------------------------------- */
+
 body {
     padding-top: 70px;
     height: 100%;
@@ -41,6 +45,25 @@ html {
     padding-bottom: 150px;
     margin-right: 0px;
     padding-right: 0px;
+}
+
+/* ----------------------------------
+    changing the style of well
+------------------------------------- */
+.well {
+    /*background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;*/
+}
+.well blockquote {
+  /*border-color: #e6e3bb;*/
+}
+
+/* ----------------------------------
+    Changing the style of jumbotron
+------------------------------------- */
+.jumbotron {
+    /*background-image:url('http://lorempixel.com/b/1000/500/')*/
+    background-color: #fff;
 }
 
 .navwidth {
@@ -231,6 +254,8 @@ img.displayed {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    height: 100%;
+    width: 100%;
 }
 
 #contentwrap {
@@ -257,7 +282,7 @@ img.displayed {
 
 .testname {
     font-family: 'Lato', sans-serif;
-    
+
 }
 .testtext {
     font-family: 'Poiret One', cursive;
