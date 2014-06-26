@@ -8,6 +8,8 @@
 
 	    <link rel="stylesheet" href="http://www.rha.msu.edu/dev/electric/css/bootstrap.css" type="text/css" media="screen" title="master" charset="utf-8">
         <link rel="stylesheet" href="css/electric.css" type="text/css" media="screen" title="master" charset="utf-8">
+        <link rel="stylesheet" href="css/footer.css" type="text/css" charset="utf-8">
+        <link rel="stylesheet" type="text/css" media="screen" href="http://code.ionicframework.com/ionicons/1.5.2/css/ionicons.min.css" />
         <!--<link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen" title="master" charset="utf-8">-->
 
         <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
@@ -45,11 +47,11 @@
     					<div class="collapse navbar-collapse">
       						<ul class="nav navbar-nav">
         						<li class="active"><a href="#">Home</a></li>
-        						<li class="navwidth"><a href="about.html">About Us</a></li>
+        						<li class="navwidth"><a href="about.php">About Us</a></li>
                                 <li class="navwidth"><a href="#">Privacy Policy</a></li>
                                 <li class="navwidth"><a href="#">Contact Us</a></li>
                                 <li class="navwidth"><a href="#">Coupon</a></li>
-                                <li class="navwidth"><a href="testimonial.html">Testimonials</a></li>
+                                <li class="navwidth"><a href="testimonial.php">Testimonials</a></li>
         						<!--<li class="dropdown">
           							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
           							<ul class="dropdown-menu">
@@ -111,7 +113,7 @@
 
 
 			<div class="row">
-				<div class="content col-lg-4 col-sm-4 col-4 well">
+				<div class="content col-lg-4 col-sm-4 col-4">
 					<div class="media">
 						<!--<a href="#" class="pull-left"><img src="http://lorempixel.com/64/64/" alt="Image"></a>-->
 						<a href="#"><!--class="pull-left"--><img src="http://lorempixel.com/b/350/175/"></a>
@@ -121,7 +123,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="content col-lg-4 col-sm-4 col-4 well">
+				<div class="content col-lg-4 col-sm-4 col-4">
 					<div class="media">
                         <a href="#"><!--class="pull-left"--><img src="http://lorempixel.com/b/350/175/"></a>
                         <div class="media-body">
@@ -130,7 +132,7 @@
                         </div>
                     </div>
 				</div>
-				<div class="content col-lg-4 col-sm-4 col-4 well">
+				<div class="content col-lg-4 col-sm-4 col-4">
 					<div class="media">
                         <a href="#"><!--class="pull-left"--><img src="http://lorempixel.com/b/350/175/"></a>
                         <div class="media-body">
@@ -145,13 +147,14 @@
 
     </body>
 
-    <footer id="footer" class="well">
+    <?php include 'includes/footer.php'; ?>
+    <!--<footer id="footer" class="well">
 	<div class="div1">
 		<p>This is the first side</p>
 	</div>
 	<div class="div2">
 		<p>This is the second side</p>
 	</div>
-    </footer>
+</footer>-->
 
 </html>

@@ -25,7 +25,9 @@ body {
     padding-top: 70px;
     height: 100%;
     overflow-x:hidden;
-    /*background-color: #E6E3BB;*/
+    background-color: #fdf6e3;
+    /*background-color: #EEE5DB;*/
+	/*background-color: #E6E3BB;*/
     /*background-color: #EFEACC;*/
     /*background-color: #CFC19E;*/
     /*background-color: #D4C9AD;*/
@@ -53,8 +55,13 @@ html {
 .well {
     /*background-color: #f5f5f5;
     border: 1px solid #e3e3e3;*/
+	/*background-color: #C67170;*/
+    /*background-color: #eee8d5;*/
+    background-color: #2B4E72;
 }
 .well blockquote {
+    border-color: #2B4E72;
+	/*border-color: #eee8d5;*/
   /*border-color: #e6e3bb;*/
 }
 
@@ -63,8 +70,24 @@ html {
 ------------------------------------- */
 .jumbotron {
     /*background-image:url('http://lorempixel.com/b/1000/500/')*/
-    background-color: #fff;
+    background-color: #fdf6e3;
+    /*background-color: #EEE5DB;*/
+	/*background-color: #fff;*/
 }
+
+/* -----------------------------------------------
+    Changing the background color of the navbar
+-------------------------------------------------- */
+.navbar-default {
+  /*background-color: #f8f8f8;
+  border-color: #e7e7e7;*/
+  background-color: #eee8d5;
+  border-color: #eee8d5;
+}
+
+
+
+
 
 .navwidth {
     margin-left: 0px;
