@@ -40,14 +40,18 @@ html {
 
 #wrap {
     min-height: 100%;
-}
-
-#container {
-    overflow-y: auto;
-    padding-bottom: 150px;
+    /*overflow-y: auto;*/
+    padding-bottom: 200px;
     margin-right: 0px;
     padding-right: 0px;
 }
+
+/*#container {
+    overflow-y: auto;
+    padding-bottom: 200px;
+    margin-right: 0px;
+    padding-right: 0px;
+}*/
 
 /* ----------------------------------
     changing the style of well
@@ -78,10 +82,10 @@ html {
 /* -----------------------------------------------
     Changing the background color of the navbar
 -------------------------------------------------- */
-.navbar-default {
+/*.navbar-default {
   /*background-color: #f8f8f8;
   border-color: #e7e7e7;*/
-  background-color: #eee8d5;
+  /*background-color: #eee8d5;
   border-color: #eee8d5;
 }
 
@@ -98,10 +102,10 @@ html {
 
 .navpadding {
     padding-right: 25px;
-}
+}*/
 
 /*media query fix for navbar*/
-@media (max-width: 1050px)
+/*@media (max-width: 1050px)
 {
     .navbar-header
     {
@@ -140,18 +144,18 @@ html {
     .collapse.in{
   	display:block !important;
     }
-}
+}*/
 
 
 /*end of navbar fix*/
 
-#brand {
+/*#brand {
     font-family: 'Lobster', cursive;
     color: #2B4E72;
     /*color: #063E6D;*/
     /*color: #024E6E;*/
     /*color: #002E48;*/
-}
+/*}*/
 
 
 /*start of search bar*/
@@ -281,6 +285,35 @@ img.displayed {
     width: 100%;
 }
 
+/* ----------------------------------------
+    front page body content
+------------------------------------------- */
+.media {
+    width: 100%;
+}
+
+.media-image {
+    width: 85%;
+    min-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.media-body {
+    width: 85%;
+    min-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #2B4E72;
+}
+
+.media-heading {
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fdf6e3;
+}
+
 #contentwrap {
     width: 100%;
 }
@@ -326,7 +359,7 @@ img.displayed {
 
 /*End Testimonial page*/
 
-#footer {
+/*#footer {
     position: relative;
     margin-top -150px;
     height: 150px;
@@ -345,7 +378,7 @@ img.displayed {
     width: 50%;
     float: left;
     padding-left: 15px;
-}
+}*/
 
 /*Opera Fix*/
 body:before {

@@ -30,6 +30,11 @@
 
         <div class="col-lg-4 col-sm-4 col-4">
             <h4 class="f_subheader">Services:</h4>
+            <ul class="f_list">
+                <li><a href="#">Residential</a></li>
+                <li><a href="#">Commercial</a></li>
+                <li><a href="#">Industrial</a></li>
+            </ul>
         </div>
 
         <div class="col-lg-4 col-sm-4 col-4">

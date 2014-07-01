@@ -6,9 +6,10 @@
 
         <title>Interactive Bootstrap Wireframes</title>
 
-	    <link rel="stylesheet" href="http://www.rha.msu.edu/dev/electric/css/bootstrap.css" type="text/css" media="screen" title="master" charset="utf-8">
-        <link rel="stylesheet" href="css/electric.css" type="text/css" media="screen" title="master" charset="utf-8">
-        <link rel="stylesheet" href="css/footer.css" type="text/css" charset="utf-8">
+	    <link rel="stylesheet" href="http://www.rha.msu.edu/dev/electric/css/bootstrap.css" type="text/css" media="screen" title="master" charset="utf-8"/>
+        <link rel="stylesheet" href="css/electric.css" type="text/css" media="screen" title="master" charset="utf-8"/>
+        <link rel="stylesheet" href="css/footer.css" type="text/css" charset="utf-8"/>
+        <link rel="stylesheet" href="css/header.css" type="text/css"/>
         <link rel="stylesheet" type="text/css" media="screen" href="http://code.ionicframework.com/ionicons/1.5.2/css/ionicons.min.css" />
         <!--<link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen" title="master" charset="utf-8">-->
 
@@ -30,10 +31,12 @@
 	<div id="wrap">
         	<!--<div class="container-fluid" id="container">-->
 
-			<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-  				<div class="container-fluid">
+            <?php include('includes/header.php'); ?>
+
+			<!--<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  				<div class="container-fluid">-->
     				<!-- Brand and toggle get grouped for better mobile display -->
-    					<div class="navbar-header">
+    					<!--<div class="navbar-header">
      						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
         						<span class="sr-only">Toggle navigation</span>
         						<span class="icon-bar"></span>
@@ -41,17 +44,17 @@
         						<span class="icon-bar"></span>
       						</button>
       						<a class="navbar-brand" id="brand" href="#">Independent Electrical</a>
-    					</div>
+    					</div>-->
 
     			 	<!--Collect the nav links, forms, and other content for toggling -->
-    					<div class="collapse navbar-collapse">
+    					<!--<div class="collapse navbar-collapse">
       						<ul class="nav navbar-nav">
         						<li class="active"><a href="#">Home</a></li>
         						<li class="navwidth"><a href="about.php">About Us</a></li>
                                 <li class="navwidth"><a href="#">Privacy Policy</a></li>
                                 <li class="navwidth"><a href="#">Contact Us</a></li>
                                 <li class="navwidth"><a href="#">Coupon</a></li>
-                                <li class="navwidth"><a href="testimonial.php">Testimonials</a></li>
+                                <li class="navwidth"><a href="testimonial.php">Testimonials</a></li>-->
         						<!--<li class="dropdown">
           							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
           							<ul class="dropdown-menu">
@@ -64,7 +67,7 @@
             								<li><a href="#">One more separated link</a></li>
           							</ul>
         						</li>-->
-      						</ul>
+      						<!--</ul>
 
 						    <form class="navbar-form navbar-right navpadding" role="search">
                                 <div class="form-group">
@@ -73,9 +76,9 @@
                                 <button type="submit" class="btn btn-default navpadding">Submit</button>
                             </form>
 
-    					</div><!-- /.navbar-collapse -->
-  				</div><!-- /.container-fluid -->
-			</nav>
+    					</div> /.navbar-collapse -->
+  				<!--</div> /.container-fluid -->
+			<!--</nav>-->
 
 			<div class="jumbotron">
 				<img src="http://lorempixel.com/b/1000/500/" class="displayed img-responsive">
@@ -116,28 +119,31 @@
 				<div class="content col-lg-4 col-sm-4 col-4">
 					<div class="media">
 						<!--<a href="#" class="pull-left"><img src="http://lorempixel.com/64/64/" alt="Image"></a>-->
-						<a href="#"><!--class="pull-left"--><img src="http://lorempixel.com/b/350/175/"></a>
+                        <div class="media-image">
+                            <a href="#"><img src="http://lorempixel.com/b/350/175/"></a>
+                        </div>
 						<div class="media-body">
 							<h4 class="media-heading" style="padding-left: 5px;">Industrial</h4>
-							<p style="padding-left: 15px;">We do industrial work!</p>
 						</div>
 					</div>
 				</div>
 				<div class="content col-lg-4 col-sm-4 col-4">
 					<div class="media">
-                        <a href="#"><!--class="pull-left"--><img src="http://lorempixel.com/b/350/175/"></a>
+                        <div class="media-image">
+                            <a href="#"><img src="http://lorempixel.com/b/350/175/"></a>
+                        </div>
                         <div class="media-body">
                             <h4 class="media-heading" style="padding-left: 5px;">Commercial</h4>
-                            <p style="padding-left: 15px;">we do Commercial work!</p>
                         </div>
                     </div>
 				</div>
 				<div class="content col-lg-4 col-sm-4 col-4">
 					<div class="media">
-                        <a href="#"><!--class="pull-left"--><img src="http://lorempixel.com/b/350/175/"></a>
+                        <div class="media-image">
+                            <a href="#"><img src="http://lorempixel.com/b/350/175/"></a>
+                        </div>
                         <div class="media-body">
                             <h4 class="media-heading" style="padding-left: 5px;">Residential</h4>
-                            <p style="padding-left: 15px;">We do residential work!</p>
                         </div>
                     </div>
 				</div>

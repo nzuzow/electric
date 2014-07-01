@@ -1,0 +1,86 @@
+
+/* -----------------------------------------------
+    Changing the background color of the navbar
+-------------------------------------------------- */
+.navbar-default {
+  /*background-color: #f8f8f8;
+  border-color: #e7e7e7;*/
+  background-color: #eee8d5;
+  border-color: #eee8d5;
+  border-bottom: 10px solid #4A0015;
+}
+
+
+.navwidth {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.navpadding {
+    padding-right: 25px;
+}
+
+
+/* -----------------------------------------------
+    media query fix for navbar
+-------------------------------------------------- */
+@media (max-width: 1050px)
+{
+    .navbar-header
+    {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+        height: 150px;
+        overflow-y: auto;
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+      display:block !important;
+    }
+}
+
+
+/*end of navbar fix*/
+
+#brand {
+    font-family: 'Lobster', cursive;
+    color: #2B4E72;
+    /*color: #063E6D;*/
+    /*color: #024E6E;*/
+    /*color: #002E48;*/
+}
+
+.selected  {
+    background-color: #2B4E72;
+}
+.navbar-default .navbar-nav > .selected > a {
+    color: #fdf6e3;
+}
