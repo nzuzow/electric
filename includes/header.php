@@ -1,3 +1,5 @@
+
+
 <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -14,12 +16,45 @@
          <!--Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse">
                   <ul class="nav navbar-nav">
-                    <li class="selected"><a href="#">Home</a></li>
-                    <li class="navwidth"><a href="about.php">About Us</a></li>
-                    <li class="navwidth"><a href="#">Privacy Policy</a></li>
-                    <li class="navwidth"><a href="#">Contact Us</a></li>
-                    <li class="navwidth"><a href="#">Coupon</a></li>
-                    <li class="navwidth"><a href="testimonial.php">Testimonials</a></li>
+                    <?php if( $content === "main")
+                    {?>
+                        <li class="selected"><a href="#">Home</a></li>
+                        <li class="navwidth"><a href="about.php">About Us</a></li>
+                        <li class="navwidth"><a href="#">Privacy Policy</a></li>
+                        <li class="navwidth"><a href="#">Contact Us</a></li>
+                        <li class="navwidth"><a href="#">Coupon</a></li>
+                        <li class="navwidth"><a href="testimonial.php">Testimonials</a></li>
+                    <?php } ?>
+
+                    <?php if( $content === "about")
+                    {?>
+                        <li class="navwidth"><a href="index.php">Home</a></li>
+                        <li class="selected navwidth"><a href="#">About Us</a></li>
+                        <li class="navwidth"><a href="#">Privacy Policy</a></li>
+                        <li class="navwidth"><a href="#">Contact Us</a></li>
+                        <li class="navwidth"><a href="#">Coupon</a></li>
+                        <li class="navwidth"><a href="testimonial.php">Testimonials</a></li>
+                    <?php } ?>
+
+                    <?php if( $content === "testimonial")
+                    {?>
+                        <li class="navwidth"><a href="index.php">Home</a></li>
+                        <li class="navwidth"><a href="about.php">About Us</a></li>
+                        <li class="navwidth"><a href="#">Privacy Policy</a></li>
+                        <li class="navwidth"><a href="#">Contact Us</a></li>
+                        <li class="navwidth"><a href="#">Coupon</a></li>
+                        <li class="selected navwidth"><a href="#">Testimonials</a></li>
+                    <?php } ?>
+
+                    <?php if( $content === "contact")
+                    {?>
+                        <li class="navwidth"><a href="index.php">Home</a></li>
+                        <li class="navwidth"><a href="about.php">About Us</a></li>
+                        <li class="navwidth"><a href="#">Privacy Policy</a></li>
+                        <li class="navwidth"><a href="#">Contact Us</a></li>
+                        <li class="navwidth"><a href="#">Coupon</a></li>
+                        <li class="selected navwidth"><a href="testimonial.php">Testimonials</a></li>
+                    <?php } ?>
                     <!--<li class="dropdown">
                           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
                           <ul class="dropdown-menu">

@@ -31,7 +31,11 @@
 	<div id="wrap">
         	<!--<div class="container-fluid" id="container">-->
 
-            <?php include('includes/header.php'); ?>
+            <?php
+
+                $content = "main";
+                include('includes/header.php');
+            ?>
 
 			<!--<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
   				<div class="container-fluid">-->
